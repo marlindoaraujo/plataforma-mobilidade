@@ -41,3 +41,13 @@ O uso consciente da tecnologia pode favorecer diversos aspectos do seu negócio,
 
 Elevar os resultados do seu empreendimento com ações simples e de alto impacto. Pensou em ferramentas on-line que permitem que sua equipe se mantenha conectada e trabalhando em qualquer lugar do mundo, certo? O uso consciente da tecnologia pode favorecer diversos aspectos do seu negócio, tornando-o mais ágil e dinâmico, pronto para responder rapidamente às demandas do mercado. É aí que entra a aplicação dos dispositivos mobile nos processos de gestão, operação e controle da empresa. Nesse sentido, a mobilidade corporativa se mostra como um investimento inteligente para qualquer negócio, pois proporciona produtividade, eficiência e crescimento sustentável. Benefícios para sua empresa, que
 permitem que sua equipe se mantenha conectada e trabalhando em qualquer lugar do mundo.
+
+# Referências
+ - http://mobilidadecorporativa.com.br/categoria/mercado-de-mobilidade/
+ - http://imagens.conteudo.algartelecom.com.br/Web/AlgarTech/%7Bd06e4fa8-198e-426c-8bf0-04f4c2c8f569%7D_E-book_GuiaDaMobilidadeCorporativa.pdf?utm_campaign=%5BTELECOM%5D%20%5BFluxo_Mobilidade%5D%20%231-1%20-%20DOWNLOAD%20Guia&utm_medium=email&utm_source=Eloqua
+# Material de apoio
+ - [Dropbox da Turma](https://www.dropbox.com/sh/nj1h6xk4wjhmj5a/AACphOI1kKXdbWogqwGQD0kya?dl=0)
+# FAQ ( Dúvidas )
+ - Whatsapp: 96991270015 ( Prof.º: Vitor Hugo )
+ - Email: vitorhugo@meta.edu.br
+ 

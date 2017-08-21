@@ -1,5 +1,7 @@
 # Plataforma de Mobilidade Corporativa - (Aula 01)
 
+[Clique para baixar o Slide da Aula 01](https://github.com/meta-sistemas-2017/plataforma-mobilidade/blob/master/Aula-01/PLATAFORMA%20DE%20MOBILIDADE%20CORPORATIVA%20-%20Aula%2001%20-%202017.2.pdf)
+
 ## Desenvolvimento de Aplicativo qual plataforma escolher?
 
 Definir se sua plataforma ou aplicativo será por meio do desenvolvimento **Android** ou **iOS** é uma dúvida bastante comum dos gestores que não dominam a área da tecnologia. E não é só por isso, existem outras questões que envolvem essa escolha.

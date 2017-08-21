@@ -6,7 +6,7 @@ Definir se sua plataforma ou aplicativo será por meio do desenvolvimento **Andr
 
 Se você pesquisar na internet, vai encontrar várias pessoas dando dicas sobre qual sistema de desenvolvimento é o mais recomendado. **Tenha muito cuidado com isso!** Projetos nunca são iguais e, não é porque deu certo para outra empresa, que funcionará para você também.
 
-#### Desenvolvimento Android
+### Desenvolvimento Android
 
 Muitos profissionais de desenvolvimento web decidem se especializar no desenvolvimento Android em função do alto índice de usuários desse sistema. A comercialização de aparelhos Android é bastante popular e está cada vez maior.
 
@@ -16,7 +16,7 @@ Sempre é bom seguir as boas práticas e o Google disponibiliza uma página com 
 
 O Google também tem disponível um [material de apoio](https://developer.android.com/studio/index.html?hl=pt-br) para você fazer a instalação de todos os componentes para começar a desenvolver seus aplicativos. O site conta com treinamento para você que nunca mexeu com criação de apps, para ter uma noção básica do funcionamento.
 
-#### Desenvolvimento iOS
+### Desenvolvimento iOS
 
 O desenvolvimento iOS dos produtos da Apple conquistam os usuários não só pelo serviço, mas também pelo desejo que provoca nas pessoas. Apesar de ter os dispositivos móveis com o custo um pouco mais alto, muitas pessoas aderem a esse sistema pela qualidade que ele oferece.
 
@@ -32,7 +32,7 @@ Para responder a essa pergunta, alguns fatores devem ser analisados. Cada um é 
 
 Claro que as três formas  apresentam tempos diferentes de desenvolvimento. Você deve analisar se atenderá ao tempo que você pretende lançar seu aplicativo e se o orçamento está dentro do planejado.
 
-#### O que é um aplicativo nativo
+### O que é um aplicativo nativo
 
 Aplicativo nativo é exatamente o que te vêm à cabeça quando se fala em aplicativo. É aquele que é programado em uma **linguagem exclusiva** para um sistema operacional e se encontra nas App Stores.
 
@@ -46,7 +46,7 @@ Essa programação própria para o sistema operacional faz com que o desempenho 
 
 Ao se programar um aplicativo nativo, os desenvolvedores respeitam a um padrão de design. Guias são oferecidos para cada sistema operacional, como o [guia de design **Android**](https://developer.android.com/design/index.html?hl=pt-br) e o [guia de design **iOS**](https://developer.apple.com/design/), que contém as melhores práticas para proporcionar uma boa experiência ao usuário.
 
-#### O que são Web Apps
+### O que são Web Apps
 
 **Web App não é um aplicativo real** e não estará disponível nas App Stores. Na verdade é um site desenvolvido exclusivamente para dispositivos móveis. Possui uma programação que reconhece que o usuário está acessando por um smartphone e se adapta a ele.
 
@@ -62,7 +62,7 @@ Como o web App não estará nas App Stores, você perde uma importante fonte de 
 
 Não apresentam a mesma segurança que os outros tipos de aplicativos, podendo deixar seu dispositivo comprometido. Seus usuários também têm que entrar com o login todas as vezes que acessar seu web App.
 
-#### O que é um aplicativo híbrido?
+### O que é um aplicativo híbrido?
 
 O **aplicativo híbrido**, como o próprio nome já sugere, é uma mistura de um aplicativo nativo e um web App.
 
@@ -76,11 +76,11 @@ Eles estarão disponíveis para download nas App Stores, oferecendo um canal de 
 
 Para funcionar corretamente em qualquer plataforma, o aplicativo híbrido necessitará de um certo tempo e trabalho duro dos desenvolvedores. Em algumas situações eles podem ter o custo bem parecido com um aplicativo nativo, dependendo do quão excelente você quer que seja a experiência oferecida ao usuário.
 
-#### Quando escolher um aplicativo nativo?
+### Quando escolher um aplicativo nativo?
 
 A escolha da melhor solução depende da avaliação de vários fatores como prazo, orçamento e público que irá utilizar o aplicativo. O desenvolvimento do aplicativo nativo leva tempo e é mais trabalhoso, pois será necessário desenvolver um app para cada plataforma distinta. Além disso, os códigos não podem ser reutilizados, pois cada plataforma requer diferentes códigos para o desenvolvimento dos aplicativos e mão de obra especializada. Tudo isso faz com que o custo do app nativo seja bem mais alto. Mas se o público-alvo do aplicativo é mais exigente, buscando rapidez e confiabilidade, o app nativo é, com certeza, a melhor opção para atender a essas necessidades.
 
-#### Quando escolher um aplicativo híbrido?
+### Quando escolher um aplicativo híbrido?
 
 O desenvolvimento de um app híbrido acaba sendo mais rápido e também mais barato. A redução de tempo em comparação aos aplicativos nativos se deve à possibilidade de execução do aplicativo híbrido em diferentes plataformas. Devido a essa característica, não há a necessidade de desenvolver o aplicativo várias vezes para se adequar a distintas plataformas, gerando menos impacto sobre o orçamento. Muitas empresas também optam pelo desenvolvimento de app híbrido em situações que não exigem uma alta performance do aplicativo ou quando o público-alvo é heterogêneo. Nesses casos, uma solução mais genérica para ser usada em plataformas variadas se torna mais vantajosa.
 

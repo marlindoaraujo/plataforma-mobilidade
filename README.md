@@ -1,11 +1,14 @@
 # Plataforma de Mobilidade Corporativa
+
 #### Introdução
+
 Do surgimento dos e-mails (que ainda são o principal canal de comunicação empresarial) até a explosão das redes sociais e dos aplicativos de troca de mensagens instantâneas, a internet trouxe inúmeras e significativas mudanças para o mundo corporativo. E a verdade é que, hoje, sequer consideramos viver sem tais inovações. Como consequência dessa revolução, atualmente experimentamos ambientes de trabalho completamente novos, muito mais dinâmicos e ágeis. Nesse cenário, quem responde mais rapidamente ao mercado se torna automaticamente mais competitivo.
 
 E uma das maiores vantagens proporcionadas por todo esse desenvolvimento tecnológico se dá com a mobilidade corporativa,
 uma tendência que certamente veio para ficar.
 
 #### O que é Mobilidade Corporativa?
+
 Já parou para pensar em como os dispositivos móveis são, atualmente, verdadeiras extensões das pessoas? Não só levamos nossos smartphones para todo lugar como usamos tablets em frente à TV e até no shopping! E isso permite que façamos muito mais atividades sem precisarmos nos desconectar do que ocorre à nossa volta. A mobilidade corporativa nada mais é do que o uso desses dispositivos móveis para otimizar o trabalho nas empresas.
 
 Hoje em dia, grande parte das organizações contrata planos de dados a fim de oferecer internet de qualidade para seus
@@ -20,6 +23,7 @@ forma, um projeto não precisa ser enviado pelo correio, já que está disponív
 
 
 #### Por que ela é importante para sua empresa?
+
  - AUTOMATIZAÇÃO DE PROCESSOS
  -  COLABORAÇÃO NA NUVEM
  -  SINCRONIZAÇÃO DE DADOS
@@ -28,6 +32,7 @@ forma, um projeto não precisa ser enviado pelo correio, já que está disponív
  -  DISTRIBUIÇÃO DE CONTEÚDO
  
 #### Quais as vantagens da mobilidade corporativa?
+
  - MELHORA NA PRODUTIVIDADE
  - DIMINUIÇÃO DE FALHAS
  - AGILIDADE NAS DECISÕES
@@ -37,19 +42,27 @@ forma, um projeto não precisa ser enviado pelo correio, já que está disponív
  - QUALIDADE DE VIDA
  
 #### Conclusão
+
 O uso consciente da tecnologia pode favorecer diversos aspectos do seu negócio, tornando-o mais ágil e dinâmico, pronto para responder rapidamente às demandas do mercado. É aí que entra a aplicação dos dispositivos mobile nos processos de gestão, operação e controle da empresa. Nesse sentido, a mobilidade corporativa se mostra como um investimento inteligente para qualquer negócio, pois proporciona produtividade, eficiência e crescimento sustentável.
 
 Elevar os resultados do seu empreendimento com ações simples e de alto impacto. Pensou em ferramentas on-line que permitem que sua equipe se mantenha conectada e trabalhando em qualquer lugar do mundo, certo? O uso consciente da tecnologia pode favorecer diversos aspectos do seu negócio, tornando-o mais ágil e dinâmico, pronto para responder rapidamente às demandas do mercado. É aí que entra a aplicação dos dispositivos mobile nos processos de gestão, operação e controle da empresa. Nesse sentido, a mobilidade corporativa se mostra como um investimento inteligente para qualquer negócio, pois proporciona produtividade, eficiência e crescimento sustentável. Benefícios para sua empresa, que
 permitem que sua equipe se mantenha conectada e trabalhando em qualquer lugar do mundo.
 
 # Referências
+
  - http://mobilidadecorporativa.com.br/categoria/mercado-de-mobilidade/
  - http://imagens.conteudo.algartelecom.com.br/Web/AlgarTech/%7Bd06e4fa8-198e-426c-8bf0-04f4c2c8f569%7D_E-book_GuiaDaMobilidadeCorporativa.pdf?utm_campaign=%5BTELECOM%5D%20%5BFluxo_Mobilidade%5D%20%231-1%20-%20DOWNLOAD%20Guia&utm_medium=email&utm_source=Eloqua
+
 # Material de apoio
+
  - [Dropbox da Turma](https://www.dropbox.com/sh/nj1h6xk4wjhmj5a/AACphOI1kKXdbWogqwGQD0kya?dl=0)
+
 # FAQ ( Dúvidas )
+
  - Whatsapp: 96991270015 ( Prof.º: Vitor Hugo )
  - Email: vitorhugo@meta.edu.br
  
- # Aulas
+# Aulas
+
   - [Aula 01](https://github.com/meta-sistemas-2017/plataforma-mobilidade/tree/master/Aula-01)
+  - [Aula 02](https://github.com/meta-sistemas-2017/plataforma-mobilidade/tree/master/Aula-02)

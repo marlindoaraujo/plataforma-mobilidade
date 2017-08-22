@@ -1,10 +1,12 @@
 # Plataforma de Mobilidade Corporativa - (Aula 02)
+
+[Clique para baixar o Slide da Aula 02](https://github.com/meta-sistemas-2017/plataforma-mobilidade/blob/master/Aula-02/PLATAFORMA%20DE%20MOBILIDADE%20CORPORATIVA%20-%20Aula%2002%20-%202017.2.pdf)
+
 ## Web App
 
 Como vimos anteriormente os  **Web App não é um aplicativo real** e não estará disponível nas App Stores. Na verdade é um site desenvolvido exclusivamente para dispositivos móveis. Possui uma programação que reconhece que o usuário está acessando por um smartphone e se adapta a ele.
 
 Em 2014, 9,4% de todas as compras online foram realizadas em dispositivos móveis, segundo o relatório WebShoppers divulgado pela [E-bit](http://www.ebit.com.br/empresa) no começo do ano de 2016. O crescimento do m-commerce (o e-commerce mobile) entre 2013 e 2014 chegou a 84%, e a tendência é de que esses indicadores continuem aumentando nos próximos anos.
-O que é design responsivo
 
 Por isso é que vender na internet, hoje, inclui necessariamente uma preocupação com os usuários de tablets e smartphones. Afinal, em países como os EUA, já são feitas mais buscas online nesse tipo de dispositivos do que em computadores desktops, criando um novo conceito de desenvolvimento.
 
@@ -20,7 +22,7 @@ Há algum tempo, a maioria dos computadores utilizava um monitor de resolução 
 
 Nesse contexto, um site é considerado responsivo quando **possui a capacidade de ajustar a disposição de seus componentes visuais, adaptando-se à resolução de tela na qual é exibido — alterando posição, altura, largura e até mesmo a formatação dos elementos gráficos —, a fim de garantir a melhor experiência do usuário ao navegar por suas páginas**.
 
-O design responsivo é uma ótima solução na hora de resolver problemas de multi-telas, mas resolver isso a partir da perspectiva de impressões é um pouco mA partir do momento que a tela do dispositivo diminui de tamanho, o conteúdo também começa a preencher um espaço mais vertical, onde tudo que está abaixo é “empurrado” também para baixo. Esse processo é chamado de fluxo.
+O design responsivo é uma ótima solução na hora de resolver problemas de multi-telas, mas resolver isso a partir da perspectiva de impressões é um pouco ma partir do momento que a tela do dispositivo diminui de tamanho, o conteúdo também começa a preencher um espaço mais vertical, onde tudo que está abaixo é “empurrado” também para baixo. Esse processo é chamado de fluxo.
 
 Talvez seja um pouco complicado de entender caso você esteja acostumado a projetar sites com pixels e pontos, mas logo fará todo o sentido, assim que você se acostumar com o processo.ais difícil. Não há nenhum tamanho fixo das páginas, nem milímetros, centímetros e muito menos nenhum tipo de restrição física que precisa ser resolvida. Projetar um site através de pixels para desktop ou Mobile também já é passado, principalmente à medida que novos gadgets surgem e te permitem abrir um site, por exemplo.
 
@@ -40,11 +42,11 @@ Talvez seja um pouco complicado de entender caso você esteja acostumado a proje
 
 Imagine que a tela possa ser um desktop, tela de smartphone ou qualquer coisa que atinja o meio termo entre as duas. A densidade dos pixels também pode variar e é por isso que também precisamos de unidades flexíveis e que funcionem em qualquer lugar.
 
-É ai que as unidades relativas baseadas em porcentagens vem a calhar. Assim, fazer algo na escalade 50% significa que ele sempre ocupará a metade da tela (ou da janela de exibição, que é o tamanho da janela do navegador aberta).
+É aí que as unidades relativas baseadas em porcentagens vem a calhar. Assim, fazer algo na escala de 50% significa que ele sempre ocupará a metade da tela (ou da janela de exibição, que é o tamanho da janela do navegador aberta).
 
 ## Pontos de Interrupção
 
-Os pontos de interrupção permitem que o layout mude em pontos predefinidos, ou seja: ter 3 colunas em um desktop, mas apenas uma coluna em dispositivos móveis, por exemplo. A maioria das propriedades CSS podem ser alteradas de um ponto de interrupção para outro.
+Os pontos de interrupção permitem que o layout mude em pontos pré definidos, ou seja: ter 3 colunas em um desktop, mas apenas uma coluna em dispositivos móveis, por exemplo. A maioria das propriedades CSS podem ser alteradas de um ponto de interrupção para outro.
 
 Normalmente, onde se coloca um desses pontos dependerá primeiramente do tipo de conteúdo que está ali. Se ocorrer de uma sequência se quebrar, talvez seja necessário adicionar um ponto de interrupção.
 
@@ -66,7 +68,7 @@ Você se lembra da posição relativa? É muito difícil apenas ter um monte de 
 
 Tecnicamente não existe uma real diferença se o projeto é iniciado a partir de uma tela menor para uma tela maior ou vice-versa. No entanto, existem algumas limitações caso você decida começar pelo Mobile, mas que poderão ser bastante úteis na hora de algumas tomadas de decisão.
 
-Muitas vezes as pessoas até mesmo começam de ambas as extremidades (mobile e desktop simultaneamente). É ai que você precisa decidir o que melhor funcionará para você a fim de obter a máxima dos dois.
+Muitas vezes as pessoas até mesmo começam de ambas as extremidades (mobile e desktop simultaneamente). É ai que você precisa decidir o que melhor funcionam para você a fim de obter a máxima dos dois.
 
 ## Quero fazer o meu site responsivo. Por onde é melhor começar?
 
@@ -81,5 +83,6 @@ A verdade é que você provavelmente precisará reconstruir boa parte do seu sit
  - https://aldabra.com.br/artigo/design-responsivo-sites
  - http://www.midiatismo.com.br/design-responsivo-entenda-o-que-e-a-tecnica-e-como-ela-funciona
  - http://k2comunicacao.com.br/blogs/design-responsivo-x-design-adaptativo/
+ - http://www.ogilvy.com.br/files/mobile.pdf
  
 [Voltar](https://github.com/meta-sistemas-2017/plataforma-mobilidade)

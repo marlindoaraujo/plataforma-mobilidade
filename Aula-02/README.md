@@ -1,5 +1,6 @@
 # Plataforma de Mobilidade Corporativa - (Aula 02)
-## web App
+## Web App
+
 Como vimos anteriormente os  **Web App não é um aplicativo real** e não estará disponível nas App Stores. Na verdade é um site desenvolvido exclusivamente para dispositivos móveis. Possui uma programação que reconhece que o usuário está acessando por um smartphone e se adapta a ele.
 
 Em 2014, 9,4% de todas as compras online foram realizadas em dispositivos móveis, segundo o relatório WebShoppers divulgado pela [E-bit](http://www.ebit.com.br/empresa) no começo do ano de 2016. O crescimento do m-commerce (o e-commerce mobile) entre 2013 e 2014 chegou a 84%, e a tendência é de que esses indicadores continuem aumentando nos próximos anos.
@@ -74,6 +75,7 @@ A verdade é que você provavelmente precisará reconstruir boa parte do seu sit
 ##### O framework que iremos utilizar será o [Bootstrap](http://getbootstrap.com/)
 
 # Referências - para saber mais...
+
  - http://marketingdeconteudo.com/web-design-responsivo/
  - https://moip.com.br/blog/design-responsivo-por-que-voce-precisa-saber/
  - https://aldabra.com.br/artigo/design-responsivo-sites

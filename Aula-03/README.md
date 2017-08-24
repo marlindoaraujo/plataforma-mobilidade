@@ -134,7 +134,7 @@ O sistema de grade da Bootstrap usa uma série de recipientes, linhas e colunas 
 
 #### Continua na aula 04.... :sweat_smile:
 
-## Atividade prática da aula 03
+## [Atividade prática da aula 03](https://github.com/meta-sistemas-2017/plataforma-mobilidade/tree/master/Aula-03/Atividade)
 
 # Referências - para saber mais...
 

@@ -14,9 +14,11 @@ Crie um site seguindo o layout do [modelo de exemplo](https://github.com/meta-si
 
 - No mínimo três linhas (`.row`) 
 - Numero de colunas (`.col`,`.col-sm`, `.col-md`, `.col-lg` e `.col-xl`) distintas dependendo do conteúdo e seu posicionamento.
-- O tema do seu site pode ser livre (***`MUITO, MUITO CUIDADO!! com temas e distrubuição de conteúdo idênticos, do contrário ja sabe a nota né?`*** :wink:) #ficaadica.
+- O tema do seu site pode ser livre (**MUITO, MUITO CUIDADO!! com temas e distrubuição de conteúdo idênticos, do contrário ja sabe a nota né?** :wink:) #ficaadica.
 
 #### 3° passo:
 Os trabalhos devem ser commitados e enviados até a nossa próxima aula (`29/08/2017`).
 
 ### Em caso de dúvidas estarei a disposição! :relieved:
+
+[Voltar](https://github.com/meta-sistemas-2017/plataforma-mobilidade/tree/master/Aula-03)

@@ -1,0 +1,16 @@
+.justify{text-align: justify;}
+.menu{background:#f66;}
+h1#logo{
+  font-family:arial;
+  float:left;
+  display:table;
+  text-shadow:2px 2px 5px #333;
+}h1#logo sup{color:#ff0;}h1#logo em{color:#fff;}h1#logo small{color:#ff1414;}
+.img1{max-width:100%;float:left;}
+.img2{width:100%;margin:10px auto}
+.bdr{border: 1px #555 dashed; }
+.center{text-align:center}
+.footer{background:#f66;padding:20px;}
+.row{margin-top:10px}
+.col-md-3{background:#fdfdfd}
+.col-md-4{background:#4d5}

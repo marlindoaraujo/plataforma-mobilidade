@@ -1,24 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>Aula 03</title>
+    <title>Aula 04</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/my-style.css">
   </head>
   <body class="bg-gray">
     <div class="container bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="./imagens/pp.jpg" width="30" height="30" class="d-inline-block align-top" alt="Desenvolvimento">
+          Mobilidade
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="./php.html">Programação PHP</a>
+            <a class="nav-item nav-link" href="./contact.html">Contatos</span></a>
+          </div>
+        </div>
+      </nav>
       <div class="row"><!-- init row -->
         <div class="col">
           <div class="text-center">
-          <br>
             <h1>Desenvolvimento web</h1>
-            <hr>
-            <img src="imagens/web.jpg" class="img-fluid">
           </div>
+         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./imagens/web.jpg" alt="Desenvolvimento Web">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./imagens/banner-php.jpg" alt="PHP">
+              <div class="carousel-caption d-none d-md-block text-justify">
+                <h3>PHP</h3>
+                <p>
+                  PHP (um acrônimo recursivo para <strong>"PHP: Hypertext Preprocessor"</strong>, originalmente Personal Home Page) é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na World Wide Web.
+                  <br>
+                  <a href="./php.html" class="btn btn-primary">Saiba mais...</a>
+                  </p>
+              </div>
+
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./imagens/banner-html.jpg" alt="HTML">
+              <div class="carousel-caption d-none d-md-block text-justify">
+                <h3>HTML</h3>
+                <p>
+                  HTML (abreviação para a expressão inglesa <strong> HyperText Markup Language </strong>, que significa Linguagem de Marcação de Hipertexto) é uma linguagem de marcação utilizada na construção de páginas na Web.
+                  <br>
+                  <a href="#html" class="btn btn-primary">Saiba mais...</a>
+                  </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./imagens/banner-css.jpg" alt="CSS">
+              <div class="carousel-caption d-none d-md-block text-justify">
+                <h3 class="text-dark">CSS</h3>
+                <p class="text-dark">
+                  Cascading Style Sheets (CSS) é uma linguagem de folhas de estilo utilizada para definir a apresentação de documentos escritos em uma linguagem de marcação, como HTML ou XML. O seu principal benefício é a separação entre o formato e o conteúdo de um documento.
+                  <br>
+                  <a href="#css" class="btn btn-primary">Saiba mais...</a>
+                  </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./imagens/banner-js.jpg" alt="JavaScript">
+              <div class="carousel-caption d-none d-md-block text-justify">
+                <h3  class="text-dark">JavaScript</h3>
+                <p class="text-dark">
+                  JavaScript é uma linguagem de programação interpretada. Foi originalmente implementada como parte dos navegadores web para que scripts pudessem ser executados do lado do cliente e interagissem com o usuário sem a necessidade deste script passar pelo servidor, controlando o navegador, realizando comunicação assíncrona e alterando o conteúdo do documento exibido.
+                  <br>
+                  <a href="#js" class="btn btn-primary">Saiba mais...</a>
+                  </p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
+        </div>
+        <br>
+        <br>
+         
           <p class="text-justify">
             Desenvolvimento web é o termo utilizado para descrever o desenvolvimento de sites, na Internet ou numa intranet. Este é o profissional que trabalha desenvolvendo websites, podendo ser um Web Designer (Desenvolvedor do Layout), ou Web Developer(Desenvolvedor de sistemas). O desenvolvimento refere-se a um processo de construção e testes do software especifico para a web, com a finalidade de se obter um conjunto de programas, que satisfazem as funções pretendidas, quer em termos de usabilidade dos usuários ou compatibilidade com outros programas existentes. O desenvolvimento web pode variar desde simples páginas estáticas a aplicações ricas, comércios eletrônicos ou redes sociais.
           </p>
@@ -30,7 +114,7 @@
           <img src="imagens/html.png" class="img-fluid img-thumbnail">
         </div> <!-- init .col-md-4 .d-md-block .d-sm-none .d-none -->
         <div class="col-md-8"> <!-- init .col-md -->
-          <h1>HTML</h1>
+          <h1 id="html">HTML</h1>
           <hr>
           <p class="text-justify">
             HTML (abreviação para a expressão inglesa HyperText Markup Language, que significa Linguagem de Marcação de Hipertexto) é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML.
@@ -45,7 +129,7 @@
       </div> <!-- end row -->
        <div class="row"> <!-- init row -->
         <div class="col-md-8"> <!-- init .col-md-8 -->
-          <h1>CSS</h1>
+          <h1 id="css">CSS</h1>
           <hr>
           <p class="text-justify">
             Cascading Style Sheets (CSS) é uma linguagem de folhas de estilo utilizada para definir a apresentação de documentos escritos em uma linguagem de marcação, como HTML ou XML. O seu principal benefício é a separação entre o formato e o conteúdo de um documento.
@@ -69,16 +153,16 @@
           <img src="imagens/js.png" class="img-fluid img-thumbnail">
         </div> <!-- init .col-md-4 .d-md-block .d-sm-none .d-none -->
         <div class="col-md-8"> <!-- init .col-md -->
-          <h1>JavaScript</h1>
+          <h1 id="js">JavaScript</h1>
           <hr>
           <p class="text-justify">
-            JavaScript é uma linguagem de programação interpretada[2]. Foi originalmente implementada como parte dos navegadores web para que scripts pudessem ser executados do lado do cliente e interagissem com o usuário sem a necessidade deste script passar pelo servidor, controlando o navegador, realizando comunicação assíncrona e alterando o conteúdo do documento exibido.
+            JavaScript é uma linguagem de programação interpretada. Foi originalmente implementada como parte dos navegadores web para que scripts pudessem ser executados do lado do cliente e interagissem com o usuário sem a necessidade deste script passar pelo servidor, controlando o navegador, realizando comunicação assíncrona e alterando o conteúdo do documento exibido.
           </p>
           <p class="text-justify">
             É atualmente a principal linguagem para programação client-side em navegadores web. Começa também a ser bastante utilizada do lado do servidor através de ambientes como o node.js. Foi concebida para ser uma linguagem script com orientação a objetos baseada em protótipos, tipagem fraca e dinâmica e funções de primeira classe. Possui suporte à programação funcional e apresenta recursos como fechamentos e funções de alta ordem comumente indisponíveis em linguagens populares como Java e C++.
           </p>
           <p class="text-justify">
-            É baseada em ECMAScript padronizada pela Ecma international nas especificações ECMA-262[3] e ISO/IEC 16262.
+            É baseada em ECMAScript padronizada pela Ecma international nas especificações ECMA-262 e ISO/IEC 16262.
           </p>
         </div><!-- end .col-md -->
       </div> <!-- end row -->

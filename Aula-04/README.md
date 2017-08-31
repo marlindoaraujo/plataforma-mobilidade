@@ -2,7 +2,7 @@
 
 ## Componentes do Bootstrap
 
-O Bootstrap tem dezenas de componentes reutilizáveis criados para fornecer elementos dropdown, grupos de inputs , navegação com tabs, alertas, tabelas e muito mais.
+O Bootstrap tem dezenas de componentes reutilizáveis criados para fornecer elementos dropdown, grupos de inputs , navegação com tabs, alertas e muito mais.
 para acesso todos os componentes do bootstrap acesse: https://getbootstrap.com/docs/4.0/components/alerts/
 
 ### Alerts (Alertas)

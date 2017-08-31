@@ -19,7 +19,7 @@
   </head>
   <body>
    <div class="container">
-      <div class="row topo" >
+      <div class="row" >
         <div class="col-8">
           1 of 2
         </div>

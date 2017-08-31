@@ -1,0 +1,32 @@
+.fundo{
+	background: #A9A9A9;
+
+}
+.color{
+	color: #000000;
+}
+.im{
+	width: 95%;
+	height: 300px;
+}
+.back{
+	background:url(../imagens/1.jpg); 
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.esquerda{
+	float: left;
+	width: 50%;
+
+}
+.direita{
+	float: right;
+	width: 50%;
+}
+.test{
+	overflow: hidden;
+}
+.test1{
+
+}

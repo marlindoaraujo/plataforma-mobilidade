@@ -12,9 +12,9 @@ Crie um site seguindo o layout do [modelo de exemplo](https://github.com/meta-si
 
 ##### O site deve conter:
 
-- No mínimo três Componentes diferêns, exemplos: Alertas, botões, Modal, Barra de navegação entre outros. 
-- Você podera utilizar outros recursos que não fazem parte da categoria de componentes como tabelas (Estarão na contagem de no mínimo três :v:) 
-- O tema do seu site pode ser livre (**MUITO, MUITO CUIDADO!! com temas e distrubuição de conteúdo idênticos, do contrário ja sabe a nota né?** :wink:) #ficaadica.
+- No mínimo três Componentes diferêns, exemplos: Alertas, botões, Modal, Barra de navegação entre outros. Você podera utilizar outros recursos que não fazem parte da categoria de componentes como tabelas (Estarão na contagem de no mínimo três :v:) 
+- O site deve conter no mínimo três páginas diferentes, devidamente lincadas.
+- O tema do seu site pode ser livre (**MUITO, MUITO CUIDADO!! com temas e páginas idênticas, do contrário ja sabe a nota né?** :wink:) #ficaadica.
 
 #### 3° passo:
 Os trabalhos devem ser commitados e enviados até a nossa próxima aula (`05/09/2017`).

@@ -1,6 +1,6 @@
 # Atividade prática da aula 04 - VALE PONTO!!!!!!!!!!!!! :sunglasses:
 
-Agora que você já conhece o [sitema de grid do Bootstrap](https://getbootstrap.com/docs/4.0/layout/grid/), e seus [Componentes] (https://getbootstrap.com/docs/4.0/components/alerts/) está na hora da prática! :smiling_imp:
+Agora que você já conhece o [sitema de grid do Bootstrap](https://getbootstrap.com/docs/4.0/layout/grid/), e seus [Componentes](https://getbootstrap.com/docs/4.0/components/alerts/) está na hora da prática! :smiling_imp:
 
 #### 1° passo:
 

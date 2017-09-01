@@ -274,7 +274,7 @@ São alguns deles:
 
 Temos também, o [Framework7](http://framework7.io/), mas esse é muito mais voltado para se criar design de aplicativos com `HTML`, `CSS` e `JavaScript`, do que design responsivo. o mesmo conta com muito mais recurso que o Bootstrap.
 
-#### Layouts e tamplates prontos que utilizem bootstrap.
+### Layouts e tamplates prontos que utilizem bootstrap.
 
 (Esse você quer saber né?? doido(a) para sair baixando layout pronto por ai :weary:)
 
@@ -284,7 +284,7 @@ Temos também, o [Framework7](http://framework7.io/), mas esse é muito mais vol
 
 #### Até a próxima aula! :sweat_smile:
 
-## [Atividade prática da aula 04]()
+## [Atividade prática da aula 04](https://github.com/meta-sistemas-2017/plataforma-mobilidade/tree/master/Aula-04/Atividade)
 
 # Referências - para saber mais...
 

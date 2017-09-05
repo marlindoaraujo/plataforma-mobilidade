@@ -10,37 +10,57 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <nav class="navbar navbar-default menu">
-      <div class="container-fluid">
-          <h1 id="logo"><small><sup>Star</sup></small><em><big>Gamers</big></em><small>.com</small></h1>
-      </div>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><h1 id="logo" class="d-none d-sm-block d-md-block"><small><sup>Star</sup></small><em><big>Gamers</big></em><small>.com</small></h1></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pg/console.html">Console</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="pg/jogos.html">Jogos</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <!------------------------------------>
     <section class="container">
       <div class="row">
         <div class="col">
-          <img src="img/cx.png" class="img1" alt="Controle-Xbox-ONE">
+          <img src="img/cx.png" class="img-fluid" alt="Controle-Xbox-ONE">
         </div>
       </div>
       <!-------------->
       <div class="row justify">
-        <div class="col">
-          <h1>Microsoft</h1>
+        <div class="col-md-6 col-12">
+          <h1 id="m">Microsoft</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <div class="col">
-          <h1>Consoles</h1>
+        <div class="col-md-6 col-12">
+          <h1 id="c">Consoles</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
       <!-------------->
-      <div class="row justify">
+      <div id="j" class="row justify">
         <div class="col-md-4 bdr">
-          <img src="img/xo.png" class="img1" alt="Console-Xbox-ONE">
+          <img src="img/xo.png" class="img-fluid" alt="Console-Xbox-ONE">
           <h1>Xbox ONE</h1>
           <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="col">
-          <img src="img/pc.png" class="img1" alt="PC-Gamer-Xbox-Live">
+          <img src="img/pc.png" class="img1 img-fluid" alt="PC-Gamer-Xbox-Live">
           <h1>Jogue no PC</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -49,17 +69,18 @@
       <!-------------->
       <div class="row center">
         <div class="col-md-3 bdr">
-          <img src="img/g1.jpg" class="img2" alt="Game-Xbox-ONE">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur rejer sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+          <img src="img/g1.jpg" class="img2 img-fluid" alt="Game-Xbox-ONE">
+          <p>Lorem ipsum dolor sit amet, quis nostrud exercitation. Excepteur rejer sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
         </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-4 bdr">
-          <img src="img/gta5.jpg" class="img2" alt="Game-Xbox-ONE">
+        <div class="col"></div>
+        <div class="col-md-4 bdr d-none d-sm-block d-md-block">
+          <img src="img/33.gif" class="img2 img-fluid" alt="Game-Xbox-ONE">
+          <img src="img/32.jpg" class="img2 img-fluid" alt="Game-Xbox-ONE">
         </div>
-        <div class="col-md-1"></div>
+        <div class="col"></div>
         <div class="col-md-3 bdr">
-          <img src="img/g2.png" class="img2 img-responsive" alt="Game-Xbox-ONE">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur rejer sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
+          <img src="img/g2.png" class="img2 img-fluid" alt="Game-Xbox-ONE">
+          <p>Lorem ipsum dolor sit amet, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur rejer sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
         </div>
       </div>
       <!-------------->

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <style>
+    div .backleft{
+        background: #ccc;
+        padding: 12px;
+    }
+    </style>
+    <title>CodE</title>
+</head>
+<body>
+   <main>
+       <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">PHP Desenvolvimento</a>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#laravel">Laravel</a>
+        </li>
+
+        <li class="nav-item">
+                <a class="nav-link" href="#mvc">MVC</a>
+              </li>
+
+        <li class="nav-item">
+                <a class="nav-link" href="#boot">Bootstrap</a>
+              </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
+<section>
+    <div class="container">
+    <div class="row">
+    <div class="col backleft">
+        <h3 id="laravel">O que é Laravel?</h3>
+        Laravel é um framework PHP livre e open-source criado por Taylor B. Otwell para o desenvolvimento de sistemas web que utilizam o padrão MVC (model, view, controller). Algumas características proeminentes do Laravel são sua sintaxe simples e concisa, um sistema modular com gerenciador de dependencias dedicado, várias formas de acesso a banco de dados relacionais e vários utilitários indispensáveis no auxílio ao desenvolvimento e manutenção de sistemas. </div>
+    <div class="col backleft"><center><img src="img/LaravelLogo.png" alt="" width="150" height="150" ></center> </div>
+        
+</div>
+    <div class="row">
+    <div class="col">
+<h3 id="mvc">O que é MVC?</h3>        
+MVC é nada mais que um padrão de arquitetura de software, separando sua aplicação em 3 camadas. A camada de interação do usuário(view), a camada de manipulação dos dados(model) e a camada de controle(controller).
+<h4>Model</h4>
+Sempre que você pensar em manipulação de dados, pense em model. Ele é responsável pela leitura e escrita de dados, e também de suas validações.
+
+<h4>View</h4>
+Simples: a camada de interação com o usuário. Ela apenas faz a  exibição dos dados, sendo ela por meio de um html ou xml.
+
+<h4>Controller</h4>
+O responsável por receber todas as requisições do usuário. Seus métodos chamados actions são responsáveis por uma página, controlando qual model usar e qual view será mostrado ao usuário.</div>
+    <div class="col"><img src="img/laravel-introducao.jpg" alt="" width="600" height="450"></div>
+    </div>
+
+    <div class="row">
+    <div class="col backleft">
+        <h3 id="boot">O que é Bootstrap?</h3>
+        Bootstrap é um framework front-end que facilita a vida dos desenvolvedores web a criar sites com tecnologia mobile (responsivo) sem ter que digitar uma linha de CSS para “fazer e acontecer”. Não é a toa que o termo “Bootstrap” em inglês significa “inicialização”, algo que possui um ponto de partida..
+            Além disso, o Bootstrap possui uma diversidade de componentes (plugins) em JavaScript (jQuery) que auxiliam o designer a implementar: tootlip, menu-dropdown, modal, carousel, slideshow, entre outros sem a menor dificuldade, apenas acrescentando algumas configurações no código, sem a necessidade de criar scripts e mais scripts.</div>
+    </div>
+</div>
+</section>
+</main>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/popper.min.js"></script>
+</body>
+</html>

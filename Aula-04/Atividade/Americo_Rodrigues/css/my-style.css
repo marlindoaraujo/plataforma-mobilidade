@@ -7,3 +7,14 @@
 .fundo2{
 	background-color: #fff;
 }
+.link{
+	text-decoration: none;
+	color: black;
+
+}
+.link:hover{
+	font-size: 16px;
+
+	color: red;
+	text-decoration: none;
+}

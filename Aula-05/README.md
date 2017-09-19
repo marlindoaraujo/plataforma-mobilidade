@@ -16,7 +16,7 @@ Eles estarão disponíveis para download nas App Stores, oferecendo um canal de 
 
 Para funcionar corretamente em qualquer plataforma, o aplicativo híbrido necessitará de um certo tempo e trabalho duro dos desenvolvedores. Em algumas situações eles podem ter o custo bem parecido com um aplicativo nativo, dependendo do quão excelente você quer que seja a experiência oferecida ao usuário.
 
-## Intrudução ao Apache Cordova
+## Introdução ao Apache Cordova
 
 O Apache Cordova é um framework de desenvolvimento móvel de código aberto. Ele permite que você use tecnologias web padrão - `HTML5`, `CSS3` e `JavaScript` para o desenvolvimento de várias plataformas. Os aplicativos são executados dentro de wrappers direcionados a cada plataforma e dependem de ligações de API compatíveis com padrões para acessar as capacidades de cada dispositivo, como sensores, dados, status da rede, etc.
 
@@ -54,7 +54,7 @@ Cordova não fornece widgets UI ou frameworks MV *. Cordova fornece apenas o tem
 
 ## Instalando o Cordova CLI - Linux Ubuntu (Galera do Windows procura no google ai...:smiling_imp:)
 
-Para utilizar o Cordova deveremos ter um montar o abinte para a plataforma que você irá gerar seu aplicativo, No nosso caso nosso foco será voltado para o desenvolvimento para plataforma Android (Não tenho dinheiro para comprar um Mac :cry:)
+Para utilizar o Cordova deveremos ter o ambinte para a plataforma que você irá gerar seu aplicativo, No nosso caso nosso foco será voltado para o desenvolvimento para plataforma Android (Não tenho dinheiro para comprar um Mac :cry:)
 
 ### Passo 1:
 
@@ -69,7 +69,7 @@ Assim o npm já estará disponivel para utilizarmos:
 
 ### Passo 2:
 
-Instalação do Cordova, depois de já estar disponivel o comando `npm` agora podemos installar o nosso cordova, execute o seguinte comando:
+Instalação do Cordova, depois de já estar disponivel o comando `npm` agora podemos instalar o nosso cordova, execute o seguinte comando:
 
 ```
 sudo npm install -g cordova

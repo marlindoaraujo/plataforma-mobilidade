@@ -1,4 +1,7 @@
+*{
+	margin: 0;
+}
 header, footer{
-	margin-top: 8px; 
+	margin-top: 8px;
 	box-shadow: #aaa 0px 2px 5px;
 }

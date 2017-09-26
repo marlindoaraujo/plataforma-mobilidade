@@ -1,0 +1,29 @@
+
+.fbranco{
+	background: #fff;
+}
+.fundo{
+	background: url(../imagens/fundo.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+.mtop{
+	margin-top:50px; 
+}
+.margem{
+	/*margin-left:15px;*/
+	/*padding:0 7px; */
+}
+.img{
+	width: 210px;
+	height: 210px;
+}
+.img2{
+	width: 150px;
+	height: 260px;
+}
+.ft{
+	padding-bottom: 3px;
+}

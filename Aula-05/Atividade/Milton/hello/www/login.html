@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>FEDERAÇAO DE JIU-JITSU DO ESTADO DO AMAPÁ</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+
+<body>
+
+  
+  <div class="container center"> <!-- contener geral  -->
+  
+  <h5>Cadastro Usuário</h5>
+  
+  <div class="row"> <!-- div geral do formulario -->
+    
+    <form class="col s12 m12 l12 xl12"> <!-- formulario geral do formulario -->
+
+ <!-- icom e imput usuario -->
+          <div class="row">
+            <div class="input-field col s12">
+<i class="material-icons prefix">account_circle</i>        
+              <input  id="Usuário" type="text" class="validate" required>
+              	<label for="Usuário">Usuário</label>
+            </div>
+          </div>
+      
+      
+<!-- icom e imput senha -->      
+              <div class="row">
+                <div class="input-field col s12">
+<i class="material-icons prefix">get_app</i>        
+                  <input id="password" type="password" class="validate" required>
+                  <label for="password">Password</label>
+                </div>
+              </div>
+      
+<!-- icom e imput e-mail --> 
+                  <div class="row">
+                    <div class="input-field col s12">
+<i class="material-icons prefix">email</i>   
+                      <input id="email" type="email" class="validate" required>
+                      <label for="email">Email</label>
+                    </div>
+                  </div>
+                  
+<!-- icom e imput telefone -->                  
+                  <div class="row">
+                  	<div class="input-field col s12">
+<i class="material-icons prefix">phone</i>
+                      <input id="icon_telephone" type="tel" class="validate" required>
+                      <label for="icon_telephone">Telefone</label>
+        			</div>
+                   </div>
+                    
+<!-- icom e botao -->   
+            <button class="btn waves-effect waves-light" type="submit" name="action">Cadastrar
+            <i class="material-icons right">send</i>
+            </button>
+    </form>
+  
+  
+
+  </div>
+  </div>
+        <div class="row center">
+          <a href="index.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Voltar</a>
+        </div>
+  
+  
+  <!--  Scripts-->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  
+  
+   <script>
+  $(document).ready(function() {
+    $('select').material_select();
+  });
+  </script>
+  
+  
+
+  </body>
+</html>

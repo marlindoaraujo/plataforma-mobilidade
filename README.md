@@ -11,7 +11,7 @@ uma tendência que certamente veio para ficar.
 
 Já parou para pensar em como os dispositivos móveis são, atualmente, verdadeiras extensões das pessoas? Não só levamos nossos smartphones para todo lugar como usamos tablets em frente à TV e até no shopping! E isso permite que façamos muito mais atividades sem precisarmos nos desconectar do que ocorre à nossa volta. A mobilidade corporativa nada mais é do que o uso desses dispositivos móveis para otimizar o trabalho nas empresas.
 
-Hoje em dia, grande parte das organizações contrata planos de dados a fim de oferecer internet de qualidade para seus
+Hoje em dia, grande parte das organizações contratam planos de dados a fim de oferecer internet de qualidade para seus
 funcionários desfrutarem das facilidades do mundo moderno (como acessarem e-mails e plataformas on-line diretamente do
 celular). Os recursos normalmente mais usados são o e-mail e os aplicativos de mensagens instantâneas, o que mostra que a comunicação por voz cai ano após ano.
 

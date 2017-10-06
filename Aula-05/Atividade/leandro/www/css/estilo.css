@@ -1,0 +1,37 @@
+.container{
+	box-shadow:
+		 10px 0px 20px -10px rgba(0,0,0,0.45),
+		 -10px 0px 20px -10px rgba(0,0,0,0.45);
+}
+.todo-conteudo{
+	border-bottom: 0px;
+}
+.text-center img{
+	width: 700px;
+	height: 450px;
+	margin-bottom: 50px;
+}
+.navbar{
+	margin-bottom: 30px;
+}
+.text-center{
+	text-decoration: none;
+}
+.carousel{
+	margin-bottom: 50px;
+	margin-top: 30px;
+	height: 500px;
+}
+.titulo{
+	margin-bottom: 50px;
+}
+.noticias h2{
+	font-size: 29px;
+}
+.noticias a{
+	text-decoration: none;
+}
+.cadastro{
+	padding-left: 50px;
+	padding-right: 30px;
+}

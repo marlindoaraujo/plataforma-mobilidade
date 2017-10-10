@@ -1,7 +1,7 @@
 # Plataforma de Mobilidade Corporativa - (Aula 07)
 
 ## Introdução ao TypeScript
-[Clique para baixar o Slide da Aula 01]()
+[Clique para baixar o Slide da Aula 01](https://github.com/meta-sistemas-2017/plataforma-mobilidade/blob/master/Aula-07/PLATAFORMA%20DE%20MOBILIDADE%20CORPORATIVA%20-%20Aula%2007%20-%202017.2.pdf)
 
 O JavaScript é uma ótima linguagem, mas há espaço para melhorias:  JS não é um tipo seguro que dificulta o desenvolvimento de aplicações em grande escala. Saiba mais em: https://www.typescriptlang.org/index.html
  - Novos recursos das versões mais recentes dos padrões JS (ES6, ES7) não são bem suportados em todos os navegadores
@@ -37,12 +37,14 @@ Para testar use o comando no terminal:
  nodejs main.js
 ```
 #### Alguns Typos básicos
-|Tipo|Exemplo                             |
-|-----|------|
-|`boolean`| let isDone: boolean = false;|
+|Tipo|Exemplo                                                                                                          |
+|---------|------------------------------------------------------------------------------------------------------------|
+|`boolean`| let isDone: boolean = false;                                                                               |
 | `number`| let decimal: number = 6;  let hex: number = 0xf00d; let binary: number = 0b1010; let octal: number = 0o744;|
-|`string` | let color: string = "blue";|
-|`Array`| let list: number[] = [1, 2, 3];|
+|`string` | let color: string = "blue";                                                                                |
+|`Array`  | let list: number[] = [1, 2, 3];                                                                            |
+
+
 Para saber mais:
 https://www.typescriptlang.org/docs/handbook/basic-types.html
 ### Declarações de Variáveis

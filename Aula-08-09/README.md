@@ -188,6 +188,9 @@ Para saber mais acesse: https://angular.io/guide/attribute-directives
 
 #### Até a próxima aula! :sweat_smile:
 
+
+## [Atividade prática da aula 05](https://github.com/meta-sistemas-2017/plataforma-mobilidade/tree/master/Aula-08-09/Atividade)
+
 # Referências - para saber mais...
  - https://angular.io/
 

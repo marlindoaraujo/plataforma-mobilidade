@@ -1,0 +1,40 @@
+
+<div><strong>Id: </strong> {{ alunos[1].id }} </div>
+<div><strong>Nome: </strong> {{ alunos[2].nome }} </div>
+
+<hr>
+
+<div id=tabela3> 
+  <div id=cabtab3> 
+  ALUNO SELECIONADO:
+  </div> 
+  <div id=corpotab3> 
+   <ul> 
+     <li><h4>{{ alunoSelecionado.id }}</h4>
+<h4>{{ alunoSelecionado.nome}}</h4></li> 
+    
+   </ul> 
+  </div> 
+
+
+
+</div>
+
+<div id="table">
+<table  align="CENTER" BORDER='1PX' style="padding: 10px;float: center; ">
+	<tr>
+		<td>ID</td>
+		<td>NOME</td>
+	</tr>
+	<tr *ngFor="let aluno of alunos" (click) = "selecionarAluno(aluno)"  >
+		<td >{{ aluno.id}}</td>
+		<td> {{ aluno.nome}}</td>
+	</tr>
+</table>
+</div>
+<hr>
+	
+
+
+
+

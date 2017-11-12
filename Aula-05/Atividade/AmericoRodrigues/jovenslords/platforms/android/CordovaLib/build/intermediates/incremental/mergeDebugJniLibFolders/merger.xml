@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\americo\Desktop\jovenslords\platforms\android\CordovaLib\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\americo\Desktop\jovenslords\platforms\android\CordovaLib\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\aula_php\plataforma-mobilidade\Aula-05\Atividade\AmericoRodrigues\jovenslords\platforms\android\CordovaLib\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\aula_php\plataforma-mobilidade\Aula-05\Atividade\AmericoRodrigues\jovenslords\platforms\android\CordovaLib\src\debug\jniLibs"/></dataSet></merger>

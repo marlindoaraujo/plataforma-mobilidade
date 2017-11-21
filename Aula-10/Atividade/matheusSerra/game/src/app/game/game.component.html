@@ -1,0 +1,12 @@
+<div *ngIf="jogoSeleciona">
+	<h1>{{jogoSeleciona.nome | uppercase }} </h1>
+	<hr>
+	<div><span>id:</span>{{ jogoSeleciona.id}}</div>
+	<div><span>nome:</span>{{jogoSeleciona.nome}}</div>
+</div>
+<hr>
+<ul class="Lista-game" type=square>
+	<li *ngFor="let jogo of jogos" (click)="selecionaJogo(jogo)" [class.seleciona]="jogo ===jogoSeleciona">
+		{{jogo.id}} {{jogo.nome}}
+	</li>
+</ul>

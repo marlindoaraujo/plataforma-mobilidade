@@ -1,0 +1,25 @@
+<h2>{{ aluno.nome | uppercase }} GATO</h2> <!-- O filtro '| uppercase' Isso irá mostrar o nome Vitor em caixa alta -->
+<div><span>id: </span>{{ aluno.id }}</div>
+<div><span>nome: </span>{{ aluno.nome }}</div>
+
+<h2>{{ alunos[0].nome | uppercase }} </h2> 
+<div><span>id: </span>{{ alunos[0].id }}</div>
+<div><span>nome: </span>{{ alunos[0].nome }}</div>
+<hr>
+<ul class="lista-alunos" >
+  <li *ngFor="let aluno of alunos" (click)="selecionaAluno(aluno)"> <!-- Isso irá chamar o método selecionaAluno toda vez que o elemento for clicado e passando com parametro o objeto de aluno do elemento clicado. -->
+    <span> {{ aluno.id }} </span> {{aluno.nome }}
+  </li>
+</ul>
+
+<div *ngIf="alunoSelecionado"> <!-- Isso irá fazer esse elemento aparecer apenas quando a propriedade  alunoSelecionado um valor, que na prática retornará um true ara o *ngIF -->
+  <h2>{{ alunoSelecionado.nome | uppercase }} </h2> 
+  <div><span>id: </span>{{ alunoSelecionado.id }}</div>
+  <div><span>nome: </span>{{ alunoSelecionado.nome }}</div>
+</div>
+<hr>
+<ul class="lista-alunos" >
+  <li *ngFor="let aluno of alunos" (click)="selecionaAluno(aluno)">
+    <span> {{ aluno.id }} </span> {{aluno.nome }}
+  </li>
+</ul>

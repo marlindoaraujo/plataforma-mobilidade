@@ -705,7 +705,7 @@ Abra o arquivo `src/app/messages/messages.component.html`, e vamos agora editar 
 
 #### Até a próxima aula! :sweat_smile:
 
-## [Atividade prática da aula 10](https://github.com/meta-sistemas-2017/plataforma-mobilidade/tree/master/Aula-11/Atividade)
+## [Atividade prática da aula 11](https://github.com/meta-sistemas-2017/plataforma-mobilidade/tree/master/Aula-11/Atividade)
 
 
 # Referências - para saber mais...

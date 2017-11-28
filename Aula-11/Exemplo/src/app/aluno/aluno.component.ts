@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Aluno } from './aluno';//importe a Classe Aluno para ser utilizada
-import { ALUNOS } from './mock-alunos'; //Importe a constante de ALUNOS
+import { Aluno } from './aluno';
+import { AlunoService } from '../aluno.service';
 
 @Component({
   selector: 'app-aluno',
@@ -10,15 +10,22 @@ import { ALUNOS } from './mock-alunos'; //Importe a constante de ALUNOS
 })
 export class AlunoComponent implements OnInit {
 
-  alunos: Aluno[] =  ALUNOS; // Modifique a propriedade para alunos do tipo array de alunos e atribua o valor da constante de ALUNOS
-  alunoSelecionado: Aluno; //propriedade que irá receber o objeto do parâmetro de selecionarAluno
-  constructor() { }
+  alunos: Aluno[];
+  alunoSelecionado: Aluno; 
+
+  
+  constructor(private alunoService: AlunoService) { }
 
   ngOnInit() {
+    this.getAlunos();
   }
+  
   selecionaAluno(aluno: Aluno): void {
-
-    
-    this.alunoSelecionado = aluno; // Um método sem retorno que recebe um aluno e atribue a propriedade alunoSelecionado
+    this.alunoSelecionado = aluno; 
+  }
+  
+  getAlunos() :void {
+    this.alunoService.getAlunos()
+    .subscribe(alunos => this.alunos = alunos);
   }
 }

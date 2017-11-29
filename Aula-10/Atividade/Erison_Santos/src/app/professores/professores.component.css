@@ -1,0 +1,15 @@
+.selecionado {
+	background: #20B2AA;
+}
+li{
+	list-style: none;
+}
+li:hover{
+	background: #2F4F4F;
+	transition: 0.7s;
+	opacity: 0.5;
+	color:#ffffff;
+}
+ul{
+background:#7FFFD4;
+ }

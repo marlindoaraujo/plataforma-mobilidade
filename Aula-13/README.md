@@ -1395,10 +1395,14 @@ Agora deve estár tudo funcionado, teste a aplicação, insira, remova, edit  al
 
 ## Depois da atividade pode comemorar \o/ que....
 #### Aaaaaaacooooooooooooooboooooooooooouuuuu!!!!!! Aaaaaacaaaabooouuuu!!!!:tada: :confetti_ball: :balloon: 
-[Acaaabooouuu]:https://github.com/meta-sistemas-2017/plataforma-mobilidade/tree/master/Aula-13/imgs/tetra.gif
-[happy]:https://github.com/meta-sistemas-2017/plataforma-mobilidade/tree/master/Aula-13/imgs/happy.gif
-[ahh]:https://github.com/meta-sistemas-2017/plataforma-mobilidade/tree/master/Aula-13/imgs/ahh.gif
-[emo]:https://github.com/meta-sistemas-2017/plataforma-mobilidade/tree/master/Aula-13/imgs/emo.gif
+![Teetraaaa](https://media1.tenor.com/images/ee399a63578b6549f921f2ebbf46b89f/tenor.gif)
+
+![happy](https://media1.tenor.com/images/1f84b096cbe1cc9f3763c803bb17e10e/tenor.gif?itemid=5878976)
+
+![ahhhh](https://i.giphy.com/media/61KXXDgl7rZPW/giphy.webp)
+
+![Alt emo](https://vignette.wikia.nocookie.net/universosteven/images/7/78/Emocionado.gif/revision/latest?cb=20161106031819&path-prefix=es)
+
 
 
 # Referências - para saber mais...
@@ -1406,7 +1410,8 @@ Agora deve estár tudo funcionado, teste a aplicação, insira, remova, edit  al
 
 ##### Agora  que já sabemos a base do Angular podemos melhorar nossos aplicativos usando ferramentas como https://material.angular.io/, para melhorar a aparência do nosso app, além de poder usar o https://ionicframework.com/ para criar app hibridos. aproveite as férias e não deixe de estudar :wink:
 
-[tchau]:https://github.com/meta-sistemas-2017/plataforma-mobilidade/tree/master/Aula-13/imgs/tchau.gif
+
+![tchau](https://media1.tenor.com/images/7f5bf5b3fc80e359d25f1125af98b1ce/tenor.gif?itemid=4577090)
 
 
 

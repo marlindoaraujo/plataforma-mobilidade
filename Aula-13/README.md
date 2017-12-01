@@ -122,6 +122,7 @@ Use o comando:
 ```sh
 ng serve -o
 ```
+## E sim usaremos 2 servidores um na porta 8000 e outro na porta 4200
 
 #### 01 - Iniciando nossas solicitações HTTP para nosso API em Laravel
 

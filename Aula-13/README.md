@@ -103,7 +103,7 @@ Route::delete('professor/{id}','ProfessorController@destroy');
 Route::get('buscar_professor', 'ProfessorController@buscar');
 ```
 
-Perceba que Nossa API já tem as rotas para os professores que vamos precisar para fazer a [Atividade Final](https://github.com/meta-sistemas-2017/plataforma-mobilidade/tree/master/Aula-12/Atividade), :stuck_out_tongue_winking_eye:
+Perceba que Nossa API já tem as rotas para os professores que vamos precisar para fazer a [Atividade Final](https://github.com/meta-sistemas-2017/plataforma-mobilidade/tree/master/Aula-13/Atividade), :stuck_out_tongue_winking_eye:
 
 #### -01 - Editando a Aplicação feita na aula 12
 

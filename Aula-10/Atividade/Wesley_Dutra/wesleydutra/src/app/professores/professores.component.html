@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+<
+
+</head>
+<body>
+<div>
+		<div *ngIf="professoresSelecionado">
+	  <h2>{{ professoresSelecionado.nome | uppercase }} </h2> 
+	  <div><span>id: </span>{{ professoresSelecionado.id }}</div>
+	  <div><span>name: </span>{{ professoresSelecionado.nome }}</div>
+	</div>
+	<hr>
+	<ul  class="lista" >
+	  <li *ngFor="let professor of professores" (click)="selecionaProfessores(professor)" [class.selecionado]="professor === professoresSelecionado" class="item">
+	    <span> {{ professor.id }} </span> {{professor.nome }}
+	  </li>
+	</ul>
+</div>
+
+</body>
+</html>

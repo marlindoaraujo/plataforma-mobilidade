@@ -1,0 +1,15 @@
+.selecionado {
+	background: #d7d7d7;
+}
+
+.lista{
+	
+	width: 50%;
+	background: black;
+	color: white;
+
+}
+.item:hover{
+	background: #d7d7d7;
+	color: black;
+}

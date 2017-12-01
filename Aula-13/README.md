@@ -1395,7 +1395,7 @@ Agora deve estár tudo funcionado, teste a aplicação, insira, remova, edit  al
 ## [Atividade prática Final](https://github.com/meta-sistemas-2017/plataforma-mobilidade/tree/master/Aula-13/Atividade)
 
 ## Depois da atividade pode comemorar \o/ que....
-#### Aaaaaaacooooooooooooooboooooooooooouuuuu!!!!!! Aaaaaacaaaabooouuuu!!!!:tada: :confetti_ball: :balloon: 
+#### Aaaaaaacaaaaaaaaaaaaaaaaaboooooooooooouuuuu!!!!!! Aaaaaacaaaabooouuuu!!!!:tada: :confetti_ball: :balloon: 
 ![Teetraaaa](https://media1.tenor.com/images/ee399a63578b6549f921f2ebbf46b89f/tenor.gif)
 
 ![happy](https://media1.tenor.com/images/1f84b096cbe1cc9f3763c803bb17e10e/tenor.gif?itemid=5878976)

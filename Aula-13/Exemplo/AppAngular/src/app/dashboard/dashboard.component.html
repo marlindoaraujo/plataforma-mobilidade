@@ -1,0 +1,12 @@
+<h3>Alunos Recentes</h3>
+<div style="padding: 10px 0; margin: 0;">
+  <a *ngFor="let aluno of alunos" routerLink="/aluno/{{aluno.id}}">
+    <div style="background-color: #607D8B; color: #fff; width: 24%; float: left; margin: 0.5%; text-align: center;">
+      <h4>{{aluno.nome}}</h4>
+    </div>
+  </a>
+</div>
+
+<hr>
+<app-aluno-busca></app-aluno-busca><!-- Adicione o seletor de AlunoBuscaComponent -->
+<hr>

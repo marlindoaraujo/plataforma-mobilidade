@@ -1,0 +1,8 @@
+<ul class="lista-alunos" >
+  <li *ngFor="let aluno of alunos">
+    <a routerLink="/aluno/{{aluno.id}}" ><!-- Adicione a tag a com  routerLink apontando para a rota de detalhe de aluno e remova a função de click que não será mais necessária -->
+    <span> {{ aluno.id }} </span> {{ aluno.nome }}
+    </a>
+  </li>
+</ul>
+<hr>

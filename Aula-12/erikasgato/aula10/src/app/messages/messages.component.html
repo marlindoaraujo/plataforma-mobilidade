@@ -1,0 +1,5 @@
+<div *ngIf="messageService.mensagens.length"> <!-- verifica se existe alguma mensagem no array e mensagens -->
+  <h2>Mensagens</h2>
+  <div *ngFor='let message of messageService.mensagens'> {{message}} </div><!-- faz um loop mostrando cada mensagem -->
+  <button (click)="messageService.clear()">Fechar</button><!-- botão que chama a função que limpa o array de mensagens -->
+</div>

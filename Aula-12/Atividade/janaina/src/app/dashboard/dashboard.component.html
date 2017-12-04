@@ -1,0 +1,8 @@
+<h3>Professores</h3>
+<div style="padding: 10px 0; margin: 0">
+  <a *ngFor="let aluno of alunos" routerLink="/aluno/{{aluno.id}}">
+    <div style="background-color: #fff; color: #000; width: 22%; float: left; margin: 1%; text-align: center;" class="btn">
+      <h4>{{aluno.nome}}</h4>
+    </div>
+  </a>
+</div>

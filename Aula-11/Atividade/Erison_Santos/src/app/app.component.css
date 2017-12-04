@@ -1,0 +1,14 @@
+
+.aluno{
+	width:50%;
+	float: left;
+	margin-left: 25%;
+}
+div{
+	background-color: #ddd;
+   width: 300px;
+   padding: 10px;
+   box-shadow: 5px 5px 0 #333;
+   -webkit-box-shadow: 10px 10px 0 #333;
+   -moz-box-shadow: 5px 5px 0 #333;
+}

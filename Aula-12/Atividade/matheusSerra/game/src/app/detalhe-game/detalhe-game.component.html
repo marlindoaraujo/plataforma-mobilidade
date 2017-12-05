@@ -1,0 +1,10 @@
+<div *ngIf="jogo">
+	<h2>{{jogo.nome | uppercase }} </h2>
+	<div><span>id: </span>{{ jogo.id }} </div>
+	<div>
+		<span>nome: </span>
+		<input [(ngModel)]="jogo.nome" placeholder="nome">
+	</div>
+</div>
+
+<button (click)="goBack()"> Voltar </button>

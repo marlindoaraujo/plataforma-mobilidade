@@ -1,0 +1,7 @@
+<ul class="Lista-game" type=square>
+	<li *ngFor="let jogo of jogos" (click)="selecionaJogo(jogo)" [class.seleciona]="jogo ===jogoSeleciona">
+		<!-- <a routerLink="/jogo/{{jogo.id}}"> -->
+		<span> {{jogo.id}} </span> {{jogo.nome}}
+	</li>
+</ul>
+<hr>

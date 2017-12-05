@@ -1,0 +1,49 @@
+td{
+	padding: 10px;
+	
+}
+td:hover{
+	background: #ddd;
+	padding: 10px;
+	cursor: pointer;
+}
+#table{
+	
+	margin: 0 auto;
+	
+}
+#mostra{
+	
+}
+#tabela3{ 
+	position: absolute;
+   border: 1px solid #80A93E; 
+   width: 200px; 
+
+	float: left;
+	display: table;
+	margin-left: 200px;
+	margin-top: 50px;
+	height: 150px;
+	background: #777;
+} 
+#cabtab3{ 
+   background-color: #B7F259; 
+   font-weight: bold; 
+   font-size: 12pt; 
+   padding: 2 2 2 2px; 
+} 
+#corpotab3{ 
+   font-size: 12pt; 
+   padding: 4 4 4 4px; 
+   background-color: #F5ECB9; 
+} 
+#corpotab3 ul{ 
+   margin: 0 2 0 20px; 
+   padding: 0 0 0 0px; 
+} 
+#corpotab3 li{ 
+
+   margin: 0 2 0 2px; 
+   padding: 0 0 0 0px; 
+} 

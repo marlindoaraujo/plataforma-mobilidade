@@ -1,0 +1,19 @@
+.selecionado {
+	background: #d7d7d7;
+}
+ul li {
+	list-style: none;
+	}
+	li::before {content: "•"; color: red}
+
+	li::before {content: "•"; color: red;
+  display: inline-block; width: 1em;
+  margin-left: -1em}
+  ol {list-style: none; counter-reset: li}
+  li::before {content: counter(li); color: red;
+  display: inline-block; width: 1em;
+  margin-left: -1em}
+  li {counter-increment: li}
+  .example ol li::before {content: counter(li); color: red;
+    display: inline-block; width: 1em; margin-left: -1.5em;
+    margin-right: 0.5em; text-align: right; direction: rtl}

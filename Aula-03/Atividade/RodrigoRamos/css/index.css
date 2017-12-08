@@ -1,0 +1,33 @@
+.bg-gray {
+	background: #eee;
+}
+
+@font-face {
+	font-family:"FontTitulo";
+	src:url("../fontstxt/Titillium_Web/TitilliumWeb-Bold.ttf");
+}
+
+@font-face {
+	font-family:"FontTxt";
+	src:url("../fontstxt/Arimo/Arimo-Bold.ttf");
+}
+
+h1 {
+	font-family: "FontTitulo", Arial, sans-serif;
+	font-weight: bold;
+}
+
+p {
+	margin:5px;
+	text-indent:10px;
+	color:#6A8BDF;
+	font-family: "FontTxt", Arial, sans-serif;
+}
+
+p b {
+	color:black;
+}
+
+footer {
+	min-height:200px;
+}

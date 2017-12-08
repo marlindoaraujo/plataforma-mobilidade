@@ -1,0 +1,76 @@
+.bg-gray {
+	background: #eee;
+}
+
+@font-face {
+	font-family:"FontTitulo";
+	src:url("../fontstxt/Titillium_Web/TitilliumWeb-Bold.ttf");
+}
+
+@font-face {
+	font-family:"FontTxt";
+	src:url("../fontstxt/Arimo/Arimo-Bold.ttf");
+}
+
+body {
+	position:relative;
+}
+
+
+section#carousel h1 {
+	text-shadow:2px 3px 7px black !important;
+}
+
+section#carousel p {
+	text-shadow:1px 1px 2px black !important;
+}
+
+
+section#carousel div {
+	border-radius:50px;
+}
+
+nav#menu {
+	margin:10px auto !important;
+	width:80% !important;
+}
+
+nav#menu li:hover {
+	background-color:rgba(58, 172, 175, 0.1);
+	border-radius:10px;
+}
+
+
+h1 {
+	font-family: "FontTitulo", Arial, sans-serif;
+	font-weight: bold;
+}
+
+p {
+	margin:5px;
+	text-indent:10px;
+	color:#6A8BDF;
+	font-family: "FontTxt", Arial, sans-serif;
+}
+
+p b {
+	color:black;
+}
+
+footer {
+	margin-top:200px;
+	min-height:10px;
+	position: relative;
+}
+
+footer div#fundoRodape {
+	width:100%!important;
+	height:200px;
+	position:absolute;
+	top: -200px;
+	left:-5px;
+	background:url("../img/pulso.png");
+	background-repeat: no-repeat;
+	background-size:100% 110%;
+	z-index:999;
+}

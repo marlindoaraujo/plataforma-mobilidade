@@ -3,15 +3,13 @@
 }
 li{
 		list-style: none;
-
 }
 li:hover{
-	background: #fff;
+	background: #d7d7d7;
 	transition: 0.7s;
-	color: #000;
 
+	color:#ffffff;
 }
 ul{
-	background:#000;
-	
+	background:white;
  }

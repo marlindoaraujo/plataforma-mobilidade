@@ -107,7 +107,7 @@ Perceba que Nossa API já tem as rotas para os professores que vamos precisar pa
 
 #### -01 - Editando a Aplicação feita na aula 12
 
-Vamos motificar o exemplo feito no tutorial da aula 11, para isso abra-o exemplo que você criou através do tutorial.
+Vamos motificar o exemplo feito no tutorial da aula 12, para isso abra-o exemplo que você criou através do tutorial.
 
 Tá para você que não fez mas queria muito mais muito fazer esses passos você pode clonar o exemplo diretamente do seguinte repositório: https://github.com/VitorHugoSilva/ExemploAula12Angular.
 

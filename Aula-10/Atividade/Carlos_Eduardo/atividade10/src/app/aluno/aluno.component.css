@@ -1,0 +1,21 @@
+
+.selecionado {
+  padding: 20px;
+  display: table;
+  background: #d7d7d7;
+  border-radius: 10px;
+  color: blue
+}
+.selecionado span{
+text-transform: uppercase;
+ color: green;
+}
+.selecionado div{
+  text-transform: uppercase;
+   color: black;
+  }
+.lista-alunos{
+
+  list-style-type: square;
+  font-family: 'Times New Roman', Times, serif
+}

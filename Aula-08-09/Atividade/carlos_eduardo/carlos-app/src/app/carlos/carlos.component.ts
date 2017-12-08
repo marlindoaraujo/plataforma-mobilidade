@@ -9,7 +9,6 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 })
 export class CarlosComponent implements OnInit {
   nome = 'Carlos Eduardo Goncalves Pacheco';
-  
   constructor() { 
  
 

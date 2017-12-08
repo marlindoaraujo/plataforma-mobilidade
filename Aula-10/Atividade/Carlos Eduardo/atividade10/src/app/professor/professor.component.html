@@ -1,0 +1,10 @@
+<ul class="lista-professores">
+    <li *ngFor='let Professor of Professores' (click)="selectionar(Professor)">
+      {{Professor.nome}}
+    </li>
+  </ul>
+  <hr>
+  <div *ngIf="profselecionado" class="selecionado"><h2>{{ profselecionado.nome | uppercase}}</h2>
+    <div><span>id:</span>{{profselecionado.id}}</div>
+    <div><span>nome:</span>{{profselecionado.nome}}</div>
+    </div>

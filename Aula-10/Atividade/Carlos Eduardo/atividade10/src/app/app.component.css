@@ -1,0 +1,12 @@
+h1{
+  display: table;
+  margin: 0 auto
+}
+.left{
+float: left;
+width: 48%
+}
+.right{
+  width: 48%;
+  float: left
+}

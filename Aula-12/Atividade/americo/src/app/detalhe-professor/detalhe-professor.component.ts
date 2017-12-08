@@ -1,6 +1,10 @@
-import { Component, OnInit, Input } from '@angular/core'; // Importar Input de angular/core
+import { Component, OnInit, Input } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
 
-import { Professor } from '../professor/professor'; //Importar o nosso Modelo de dados de Aluno
+import { Professor } from '../professor/professor';
+import { ProfessorService } from '../professor.service';
+
 @Component({
   selector: 'app-detalhe-professor',
   templateUrl: './detalhe-professor.component.html',
@@ -8,10 +12,25 @@ import { Professor } from '../professor/professor'; //Importar o nosso Modelo de
 })
 export class DetalheProfessorComponent implements OnInit {
 
-  @Input() professor: Professor; //Adicina uma propriedade que pode ser recebida do tipo Aluno
+  @Input() professor: Professor;
 
-  constructor() { }
+  constructor(
+  	private route: ActivatedRoute,
+  	private professorService: ProfessorService,
+  	private location: Location) { }
 
   ngOnInit() {
+  	this.getProfessor();
   }
+
+  getProfessor(): void {
+	  const id = +this.route.snapshot.paramMap.get('id');
+	  this.professorService.getProfessor(id)
+	    .subscribe(professor => this.professor = professor);
+  }
+
+  goBack(): void {
+  	this.location.back();
+  }
+
 }

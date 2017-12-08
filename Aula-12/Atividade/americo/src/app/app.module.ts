@@ -7,26 +7,26 @@
   import { ProfessorComponent } from './professor/professor.component';
   import { DetalheProfessorComponent } from './detalhe-professor/detalhe-professor.component';
 
-  import { ProfessorService } from './professor.service'; //Importa nosso Service de alunos
+  import { ProfessorService } from './professor.service';
   import { MessageService } from './message.service';
-import { MessagesComponent } from './messages/messages.component'; //Importa nosso Service de mensagens
-
-
-
+import { MessagesComponent } from './messages/messages.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
   @NgModule({
     declarations: [
       AppComponent,
       ProfessorComponent,
       DetalheProfessorComponent,
-      MessagesComponent
-
+      MessagesComponent,
+      DashboardComponent
     ],
     imports: [
       BrowserModule,
-      FormsModule
+      FormsModule,
+      AppRoutingModule
     ],
-    providers: [ ProfessorService, MessageService ], //Adiciona nossas Serviços ao providers do nosso módulo princial
+    providers: [ ProfessorService, MessageService ],
     bootstrap: [AppComponent]
   })
   export class AppModule { }

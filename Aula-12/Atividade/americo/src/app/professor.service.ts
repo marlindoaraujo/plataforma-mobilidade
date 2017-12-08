@@ -12,9 +12,14 @@ import { MessageService } from './message.service';
 export class ProfessorService {
 
   constructor(private messageService: MessageService) { }
-  
+
   getProfessores(): Observable<Professor[]> {
-  	this.messageService.add('Professores Encontrados...'); //Adicione a ao service de mensagem
+  	this.messageService.add('Professor Encontrados...');
   	return of(PROFESSORES);
+  }
+
+  getProfessor(id: number):  Observable<Professor> {
+  	this.messageService.add(`Carregando professor id=${id}`);
+  	return of(PROFESSORES.find(professor => professor.id === id));
   }
 }

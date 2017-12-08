@@ -1,9 +1,9 @@
-import { Professor } from './professor'; // Importando nossa classe de modelo de Aluno
+import { Professor } from './professor';
 
-export const PROFESSORES: Professor[] = [ //Criando um aconstate com um array de Objetos do tipo Aluno
-    {  nome: 'Vitor Hugo'},
-    {  nome: 'Paulo Tarciso'},
-    {  nome: 'Allan David'},
-    {  nome: 'Alan Cunha'},
-    {  nome: 'Paulo de Tarço'},
+export const PROFESSORES: Professor[] = [
+    { id: 2, nome: 'Paulo de Tarço'},
+    { id: 3, nome: 'Paulo Tarciso'},
+    { id: 4, nome: 'Allan David'},
+    { id: 5, nome: 'Alan Cunha '},
+    { id: 6, nome: 'Ronedo'},
 ];

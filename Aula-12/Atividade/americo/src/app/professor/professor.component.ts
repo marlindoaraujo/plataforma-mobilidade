@@ -11,19 +11,16 @@ import { ProfessorService } from '../professor.service';
 export class ProfessorComponent implements OnInit {
 
   professores: Professor[];
-  professorSelecionado: Professor; 
 
-  
+
   constructor(private professorService: ProfessorService) { }
 
   ngOnInit() {
     this.getProfessores();
   }
-  
-  selecionaProfessor(professor: Professor): void {
-    this.professorSelecionado = professor; 
-  }
-  
+
+
+
   getProfessores() :void {
     this.professorService.getProfessores()
     .subscribe(professores => this.professores = professores);

@@ -1,0 +1,18 @@
+<h3>Professores Recentes</h3>
+<div style="position:relative;overflow: hidden; background:;margin: 0 auto;height: ;">
+  <a *ngFor="let aluno of alunos" routerLink="/aluno/{{aluno.id}}">
+  <!-- Adicione o routerLink passando a url do aluno com seu id pego dinamicamente -->
+    <!-- <div id="botoes">
+      <h4 ></h4>
+    </div> -->
+    <div style="background-color: ; color: #fff; width: 24%; float: left; margin: 0.5%; text-align: center;">
+    <p class="botao">
+      <a href="">{{aluno.nome}}</a>
+      </p>
+    </div>
+  </a>
+</div>
+
+<hr>
+<app-aluno-busca></app-aluno-busca><!-- Adicione o seletor de AlunoBuscaComponent -->
+<hr>

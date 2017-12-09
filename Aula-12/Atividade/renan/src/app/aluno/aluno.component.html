@@ -1,0 +1,22 @@
+<hr>
+
+<ul class="lista-alunos" >
+  <li *ngFor="let aluno of alunos" (click)="selecionaAluno(aluno)" [class.selecionado]="aluno === alunoSelecionado">
+    <a routerLink="/aluno/{{aluno.id}}">
+    <span> {{ aluno.id }} </span> {{ aluno.nome }}
+    </a>
+
+    <div *ngIf="aluno"></div>
+      <div *ngIf="aluno">
+        <h2>{{ aluno.nome | uppercase }} </h2> 
+        <div><span>id: </span>{{ aluno.id }}</div>
+        <div>
+        <span>nome: </span>
+            <input [(ngModel)]="aluno.nome" placeholder="nome">
+        </div>
+      </div>    
+  </li>
+  <a routerLink="/dashboard">
+  <button>Voltar</button><!-- Botão Voltar -->
+  </a>
+</ul>

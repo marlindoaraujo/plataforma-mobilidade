@@ -1,0 +1,8 @@
+<h3 >Professores Recentes</h3>
+<div style="padding: 10px 0; margin: 0">
+  <a *ngFor="let professor of professores" routerLink="/professor/{{professor.id}}"><!-- Adicione o routerLink passando a url do aluno com seu id pego dinamicamente -->
+    <div style="background-color: #f93; border-radius: 2px; color: #fff; width: 22%; float: left; margin: 1%; text-align: center;">
+      <h4>{{professor.nome}}</h4>
+    </div>
+  </a>
+</div>

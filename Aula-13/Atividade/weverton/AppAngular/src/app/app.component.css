@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0px;
+}
+body{
+	position: relative;
+	box-sizing: border-box;
+
+}
+#todo{
+	position: relative;
+	text-align: center;
+	background: #778899;
+	width: 100%;
+	overflow: hidden;
+}
+#centro
+{
+	position: relative;
+	margin: 0 auto;	
+	height:100px;
+	width: 50%;
+	background: #FF8C00;
+}
+
+/*css do menu*/
+	/* CSSTerm.com Simple CSS menu */
+
+br { clear:left }
+
+ 
+
+.menu_simple {
+
+width: 100%;
+
+background-color: #005555;
+
+}
+
+ 
+
+.menu_simple ul {
+
+margin: 0; padding: 0;
+
+float: left;
+
+}
+
+ 
+
+.menu_simple ul li {
+
+display: inline;
+}
+
+ 
+
+.menu_simple ul li a {
+
+float: left; text-decoration: none;
+
+color: white;
+
+padding: 10.5px 11px;
+
+background-color:  #005555;
+
+}
+ 
+
+.menu_simple ul li a:visited {
+
+color: white;
+
+}
+
+ 
+
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+
+color: white;
+
+background-color: #5FD367;
+
+}

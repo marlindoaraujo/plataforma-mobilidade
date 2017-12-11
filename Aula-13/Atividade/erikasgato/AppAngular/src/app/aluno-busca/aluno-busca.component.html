@@ -1,0 +1,36 @@
+<head>
+  
+</head>
+
+<style type="text/css">
+.w3-input{
+  width: 50%;
+  padding: 10px;
+  margin: 0 auto;
+  background: #FFC0CB;
+  border: 1px solid #fff;
+}  
+</style>
+
+<div style="background:;text-align: center;">
+  <h4>Buscar professor</h4>
+
+  
+  <form>
+  
+  <p><input class="w3-input w3-hover-green" type="text" #caixaBusca id="search-box" (keyup)="buscar(caixaBusca.value)"></p>
+</form>
+
+  <ul>
+    <li *ngFor="let aluno of alunos$ | async">
+    <div style="background:white;text-align: center;width: 20%;margin:0 auto;border-bottom: 1px solid blue; margin-bottom: 4px;">
+      <a routerLink="/aluno/{{aluno.id}}" style="list-style: none;font-size: 30px;text-decoration: none;">
+        {{aluno.nome}}
+      </a>
+      </div>
+    </li>
+  </ul>
+
+</div>
+
+<button class="i2Style">remover</button>

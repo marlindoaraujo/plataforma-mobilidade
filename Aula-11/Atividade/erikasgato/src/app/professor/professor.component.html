@@ -1,0 +1,8 @@
+
+<ul class="lista-professores">
+    <li *ngFor='let Professor of Professores' (click)="selecionar(Professor)" [class.selecionado]="Professor===profselecionado">
+      {{Professor.nome}}
+    </li>
+  </ul>
+  <hr>
+  <app-detalhe-prof [Professor]="profselecionado"> </app-detalhe-prof>

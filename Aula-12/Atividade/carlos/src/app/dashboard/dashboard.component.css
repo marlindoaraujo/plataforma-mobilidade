@@ -1,0 +1,14 @@
+.exibe-aluno{
+    background-color: rgb(65, 150, 100);
+    color: #fff; 
+    width: 22%;
+    height: 30px; 
+    float: left; 
+    margin: 1%;
+    font-weight: bolder; 
+    text-align: center;
+    padding-top: 10px;
+}
+.exibe-aluno h4{
+    width: 100px;
+}

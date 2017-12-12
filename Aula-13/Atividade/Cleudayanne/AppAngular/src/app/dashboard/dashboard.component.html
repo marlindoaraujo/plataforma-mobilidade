@@ -1,0 +1,16 @@
+<hr>
+<h3>Professores Recentes</h3>
+<hr>
+<div>
+  <a *ngFor="let aluno of alunos" routerLink="/aluno/{{aluno.id}}">
+
+    <div class="btns">
+      <a href="">{{aluno.nome}}</a>
+    </div>
+
+  </a>
+</div>
+
+<hr>
+<app-aluno-busca></app-aluno-busca>
+<hr>

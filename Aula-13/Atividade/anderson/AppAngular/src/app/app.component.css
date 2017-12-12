@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0px;
+}
+
+div{
+
+	font-family: arial;
+	padding: 1em;
+
+}
+div:hover{
+	background: #9370DB;
+	box-shadow: 0px 0px 20px #000;
+	color:#fff;
+	transition:0.3s ;
+
+}
+nav{
+	background: white;
+		padding: 5px;
+}
+li{
+	width: 45%;
+	float: left;
+	font-size: 20px;
+
+}

@@ -1,0 +1,8 @@
+li{
+	background: #ccc;
+	list-style: none;
+	cursor: pointer;
+}
+li:hover {
+	background-color: #A9A9A9;
+}

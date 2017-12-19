@@ -1,0 +1,19 @@
+<div style="text-align: center;">
+  <h2>Buscar professor</h2>
+  <form>
+  <input type="text" id="fname" name="fname" placeholder="Search.." id="search-box" (keyup)="buscar(caixaBusca.value)">
+</form>
+
+  <ul>
+    <li *ngFor="let aluno of alunos$ | async">
+    <div style="background:white;">
+      <a routerLink="/aluno/{{aluno.id}}" style="list-style: none;font-size: 30px;text-decoration: none;">
+        {{aluno.nome}}
+      </a>
+      </div>
+    </li>
+  </ul>
+
+</div>
+
+<button class="i2Style">remover</button>

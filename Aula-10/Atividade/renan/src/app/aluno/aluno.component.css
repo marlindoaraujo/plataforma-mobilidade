@@ -1,0 +1,19 @@
+ul{
+	width: 400px;
+}
+.selecionado {
+	margin-bottom: 10px;
+}
+li{
+	list-style: none;
+}
+li:hover{
+	color: red;
+	
+	
+}
+.detalhes{
+	border: 1px solid black;
+	color: black;
+}
+

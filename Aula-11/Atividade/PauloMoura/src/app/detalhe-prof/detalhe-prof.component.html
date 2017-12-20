@@ -1,0 +1,8 @@
+<div *ngIf="Professor" class="selecionado"><h2>{{ Professor.nome | uppercase}}</h2>
+
+    <h2>{{Professor.nome}}</h2>
+    <div><span>id:</span>{{Professor.id}}</div>
+  <div>
+  <input [(ngModel)]="Professor.nome">
+  </div>
+</div>

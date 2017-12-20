@@ -1,0 +1,11 @@
+<div>
+  <h4>Buscar Aluno</h4>
+  <input #caixaBusca id="search-box" (keyup)="buscar(caixaBusca.value)" />
+  <ul>
+    <li *ngFor="let  professor of professores$ | async">
+      <a routerLink="/aluno/{{professor.id}}">
+        {{professor.nome}}
+      </a>
+    </li>
+  </ul>
+</div>

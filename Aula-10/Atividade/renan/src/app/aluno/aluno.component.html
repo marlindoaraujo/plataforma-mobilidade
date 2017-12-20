@@ -1,0 +1,19 @@
+
+<hr>
+
+<ul class="lista-alunos" >
+
+  <li *ngFor="let aluno of alunos" (click)="selecionaAluno(aluno)" [class.selecionado]="aluno === alunoSelecionado">
+
+	
+    <span> {{ aluno.id }} </span> {{aluno.nome }}
+    	<div *ngIf="alunoSelecionado" [class.detalhes]="aluno === alunoSelecionado">
+			<ul *ngIf="alunoSelecionado.id == aluno.id">
+				<h2>{{ alunoSelecionado.nome | uppercase }} </h2> 
+				<div><span>id: </span>{{ alunoSelecionado.id }}</div>
+				<div><span>nome: </span>{{ alunoSelecionado.nome }}</div>
+			</ul>
+		</div>
+	</li>
+
+</ul>

@@ -1,0 +1,15 @@
+.btn{
+  background-color: white;
+
+ text-decoration: none;
+}
+.btn:hover{
+  color: white;
+  background: blue;}
+
+a {
+   color: black;
+}
+.todo:hover a{
+  color: white;
+}

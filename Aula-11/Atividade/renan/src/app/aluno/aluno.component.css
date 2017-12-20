@@ -1,0 +1,9 @@
+ul{
+	list-style: none;
+}
+.selecionado {
+	background: #d7d7d7;
+}
+.detalhe{
+	margin-bottom: 15px;
+}

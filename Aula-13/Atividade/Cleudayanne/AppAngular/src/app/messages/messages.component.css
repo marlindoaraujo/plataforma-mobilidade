@@ -1,0 +1,14 @@
+.btns{
+background: white;
+
+
+
+}
+.btns:active{
+cursor:pointer;
+position:relative;
+top:2px;
+}
+.btns:hover{
+  box-shadow: 0px 0px 30px white;
+}

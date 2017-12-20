@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0px;
+}
+body{
+	position: relative;
+	box-sizing: border-box;
+
+}
+#todo{
+	position: relative;
+	text-align: center;
+	background: #F5DEB3;
+	width: 100%;
+	overflow: hidden;
+}
+#centro
+{
+	position: relative;
+	margin: 0 auto;	
+	height:px;
+	width: 50%;
+	background: #D2691E;
+}
+
+/*css do menu*/
+	#menu{
+		position: relative;
+		background: #ccc;
+		padding:10px;
+	}
+	#menu ul {
+		position: relative;
+			background-color:#EDEDED;
+			list-style:none;
+			font:120% Tahoma;
+
+		}
+ 
+		#menu ul li { display: inline; }
+ 
+		#menu ul li a {
+			background-color:#EDEDED;
+			color: #333;
+			text-decoration: none;
+			border-bottom:3px solid #EDEDED;
+			padding: 2px 10px;
+			float: center;
+		}
+ 
+		#menu ul li a:hover {
+			background-color:#D6D6D6;
+			color: #6D6D6D;
+			border-bottom:3px solid #EA0000;
+		}

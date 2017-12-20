@@ -1,0 +1,39 @@
+<hr>
+<div>
+  <label>Nome do Aluno:
+    <input #alunoNome />
+  </label>
+ 
+  <button (click)="adicionar(alunoNome.value); alunoNome.value=''">
+    adicionar
+  </button> <!-- (click) passa o valor do input alunoNome para funão adicionar() -->
+</div>
+<hr>
+<ul class="lista-professores" >
+  <li *ngFor="let professor of professores">
+    <a routerLink="/professor/{{professor.id}}" >
+    <span> {{ professor.id }} </span> {{ professor.nome }}
+    </a>
+    <button title="Remover Aluno" (click)="delete(professor)">Remover</button>
+  </li>
+</ul>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
